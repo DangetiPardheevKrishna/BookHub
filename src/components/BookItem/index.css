@@ -1,0 +1,77 @@
+.bookshelves-book-list-item {
+  width: 45%;
+  list-style-type: none;
+}
+.bookshelves-link-item {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+.bookshelves-item-image {
+  height: 155px;
+  width: 133px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.bookshelves-text-container {
+  padding: 0px 16px;
+}
+
+.bookshelves-name {
+  color: #334155;
+  font-size: 16px;
+  font-family: roboto;
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0px;
+}
+.bookshelves-author {
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.bookshelves-rating-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: roboto;
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 6px;
+}
+.bookshelves-rating-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bookshelves-rating {
+  color: #334155;
+  font-size: 12px;
+  font-family: roboto;
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0px;
+  margin-left: 6px;
+}
+.bookshelves-readstatus-text {
+  color: #334155;
+  font-size: 12px;
+  font-family: roboto;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.bookshelves-readstatus {
+  color: #0284c7;
+}
+@media screen and (max-width: 768px) {
+  .bookshelves-book-list-item {
+    width: 100%;
+  }
+}

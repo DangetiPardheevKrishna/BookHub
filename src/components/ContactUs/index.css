@@ -1,0 +1,31 @@
+.contact-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:768px){
+  .contact-us-container{
+    margin-top: 20px;
+  }
+}
+.contact-us-list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+.contact-us-icon {
+  color: #3d3c3c;
+  font-size: 20px;
+  margin: 10px 14px;
+}
+.contact-us-text {
+  color: #3d3c3c;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+}

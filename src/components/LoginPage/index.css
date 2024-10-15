@@ -1,0 +1,113 @@
+.login-page-container {
+}
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .login-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+  }
+
+  .login-page-image {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 20px 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .login-app-container {
+    display: flex;
+  }
+  .login-page-image-container {
+    width: 55vw;
+    height: 100vh;
+  }
+  .login-page-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+    flex-grow: 1;
+  }
+}
+.login-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+  padding: 40px 30px;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+}
+.login-page-logo {
+  width: 100px;
+  text-align: center;
+}
+.login-page-input-container {
+  margin-top: 22px;
+  width: 100%;
+}
+.login-page-label {
+  color: #5a7184;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 500;
+  margin: 0px;
+}
+.login-page-input {
+  margin-top: 4px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  font-family: roboto;
+  padding: 10px 14px;
+  color: #5a7184;
+  width: 100%;
+  outline: none;
+}
+
+.login-button {
+  background-color: #0284c7;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  margin: 22px 0px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    margin: 0px 30px;
+    max-width: 450px;
+  }
+}
+
+.error-msg {
+  color: #ef4444;
+  font-size: 12px;
+  font-family: roboto;
+  text-align: left;
+  margin: 0px;
+}

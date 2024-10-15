@@ -1,0 +1,44 @@
+.top-rated-book-item {
+  margin: 10px 12px;
+  list-style-type: none;
+}
+.top-rated-book-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+}
+.top-rated-book-link {
+  text-decoration: none;
+}
+.top-rated-book-name {
+  color: #334155;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  font-family: roboto;
+  margin: 10px 0px;
+}
+.top-rated-book-author {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  font-family: roboto;
+}
+@media screen and (max-width: 768px) {
+  .top-rated-book-item {
+    margin: 6px;
+  }
+  .top-rated-book-image {
+    height: 100px;
+  }
+  .top-rated-book-name {
+    font-size: 16px;
+  }
+  .top-rated-book-author {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,38 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  align-items: center;
+}
+.not-found-image {
+  width: 90%;
+  max-width: 400px;
+}
+.not-found-heading {
+  color: #334155;
+  font-family: roboto;
+  font-size: 24px;
+  margin: 16px 0px;
+}
+.not-found-description {
+  color: #475569;
+  font-family: roboto;
+  font-size: 18px;
+  margin: 16px 0px;
+  line-height: 1.8;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+.not-found-button {
+  padding: 10px 18px;
+  background-color: #0284c7;
+  font-family: roboto;
+  font-size: 14px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
