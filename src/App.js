@@ -33,7 +33,7 @@ const bookshelvesList = [
 ]
 
 class App extends Component {
-  state = {activePage: 'initi'}
+  state = {activePage: 'initial'}
   render() {
     return (
       <Switch>
